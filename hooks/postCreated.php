@@ -8,7 +8,7 @@ if ( !defined( '\IPS\SUITE_UNIQUE_KEY' ) )
 
 use IPS\Http\Request\Curl;
 
-class hook38 extends _HOOK_CLASS_
+class hook39 extends _HOOK_CLASS_
 {
 
 	/**
