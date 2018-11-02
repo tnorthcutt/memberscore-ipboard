@@ -34,7 +34,7 @@ class hook39 extends _HOOK_CLASS_
 	        $team_id = \IPS\Settings::i()->memberscore_team_id;
 	        $api_key = \IPS\Settings::i()->memberscore_api_key;
 
-	        $url = \IPS\Http\Url::external('https://memberscoreapp.com/integration/ipboard/' . $team_id . '?api_token=' . $api_key);
+	        $url = \IPS\Http\Url::external('https://app.memberscore.io/integration/ipboard/' . $team_id . '?api_token=' . $api_key);
 	        try {
 	            $response = $url->request(15 )->post(array(
 	                'data' => array(
